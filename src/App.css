@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.logo {
+    max-width: 350px;
+}
+
+.title {
+    color: #FFF;
+    margin: 14px 0;
+}
+
+.category-area {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 34px;
+}
+
+.category-button {
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-frase {
+    background-color: #1fa4db;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.texto-frase {
+    width: 420px;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    text-align: center;
+    padding: 14px 22px;
+    margin: 24px 0 16px 0;
+    line-height: 150%;
+    color: #dd7b22;
+    font-style: italic;
+    font-size: 18px;
+}
